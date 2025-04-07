@@ -1,0 +1,22 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://vedantadental.com/sitemap.xml
+
+# Prevent crawling of admin areas
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /private/
+
+# Allow crawling of important content
+Allow: /services/
+Allow: /about/
+Allow: /contact/
+Allow: /gallery/
+Allow: /testimonials/
+Allow: /blog/
+
+# Crawl-delay for better server performance
+Crawl-delay: 10 
